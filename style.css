@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px; 
+    display: inline-block; 
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease, padding 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1); 
+    padding: 10px 14px; 
+    border-radius: 5px; 
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.sign-in,
+.sign-up {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sign-in {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.sign-in:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+.sign-up {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sign-up:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.section {
+    display: flex;
+}
+
+.div h1 {
+    font-size: 52px;
+  margin-top: 100px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.section1 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.section1 h6 {
+    font-size: 16px;
+    color: #007bff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section1 h4 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.cards .card {
+    width: 287px;
+    height: 226px;
+    background-color: #fff;
+    border-top: 4px solid #007bff; /* Үстүнкү көк border */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 4px 8px rgba(18, 18, 18, 0.1); /* Жумшак жана табигый box-shadow */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(18, 18, 18, 0.15);
+}
+
+.cards .card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.cards .card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cards .card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
